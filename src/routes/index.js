@@ -11,5 +11,12 @@ const routes = {
     '/:id': Character,
     '/contact': 'Contact',
 }
-
 //Manejador de rutas
+//El async es esperar a que algo este sucediendo
+const router = async  () => {
+    const header = null || document.getElementById('header');
+    const content = null || document.getElementById('content');
+    header.innerHTML = await Header();
+};
+
+export default router;

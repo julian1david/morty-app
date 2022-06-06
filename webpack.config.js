@@ -22,13 +22,12 @@ module.exports = {
         ]
     },
     plugins: [
-        new HtmlWebpackPlugin([
-            {
-                inject: 'true',
-                temnplate: './public/index.html',
-                filename: './index.html'
-            }
-        ])
+        new HtmlWebpackPlugin({
+            //El body es apra que inserte el script al final
+            inject: 'body',
+            template: './public/index.html',
+            filename: './index.html'
+        }),
     ]
 
 }
