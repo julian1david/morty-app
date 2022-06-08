@@ -1,4 +1,4 @@
-const resolveroutes = (route) => {
+const resolveRoutes = (route) => {
     if (route.length <= 3){
         let validRoute = route === '/' ? route : '/:id';
         return validRoute;
@@ -6,4 +6,4 @@ const resolveroutes = (route) => {
     return `/${route}`;
 }
 
-export default resolveroutes;
+export default resolveRoutes;
