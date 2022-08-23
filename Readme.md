@@ -4,7 +4,7 @@ A simple example of a single page aplication of Ricky And Morty APP
 
 ## Vista del proyecto 🚀
 
-Mira **[RickyMorty-Signle-Page](https://rad-parfait-af84ac.netlify.app/)** para conocer como funciona el proyecto.
+Mira **[RickyMorty-Signle-Page](https://julian1david-rickandmorty.netlify.app/)** para conocer como funciona el proyecto.
 
 
 ### Instalación 🔧
